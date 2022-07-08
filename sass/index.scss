@@ -1,10 +1,13 @@
+@import './general/variables'
+
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0; 
 }
 main {
 	overflow: hidden;
+    font-family: $font-principal;
 }
 footer {
 	overflow: hidden;
