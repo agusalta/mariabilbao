@@ -1,9 +1,4 @@
 /* Colores */
-/* Fuentes */
-/* Colores */
-/* Fuentes */
-/* Colores */
-/* Fuentes */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +6,6 @@
 
 main {
   overflow: hidden;
-  font-family: "Courier New", Courier, monospace;
 }
 
 footer {
