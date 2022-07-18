@@ -1,0 +1,5 @@
+.btn-outline {
+    @each $name, $color in $palette {
+        @include button($name, $color);
+    }
+}
