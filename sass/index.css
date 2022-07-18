@@ -1,5 +1,9 @@
 /* Colores */
 /* Fuentes */
+/* Colores */
+/* Fuentes */
+/* Colores */
+/* Fuentes */
 * {
   margin: 0;
   padding: 0;
@@ -99,16 +103,13 @@ footer {
   #lineas {
     display: none;
   }
-
   .jumbotron {
     text-align: center;
     transform: translateY(5rem);
   }
-
   #container-index {
     background-color: transparent;
   }
-
   #div-bv {
     transform: translateY(-5rem);
   }
@@ -118,7 +119,6 @@ footer {
     overflow: visible;
     position: relative;
   }
-
   #footer-cont {
     position: absolute;
     display: none;
