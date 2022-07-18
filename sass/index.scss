@@ -4,17 +4,8 @@
     margin: 0;
     padding: 0; 
 }
-main {
+main, footer, #lineas{
 	@include oh;
-}
-footer {
-	@include oh;
-}
-#lineas {
-	@include oh;
-}
-.page-footer, .navbar {
-	background-color: whitesmoke;
 }
 .nav-item {
 	margin-left: 4rem;
@@ -24,9 +15,6 @@ footer {
 	&:hover {
 		filter: brightness(80%);
 	}
-}
-#container-index {
-	background-image: transparent;
 }
 .jumbotron {
 	background: linear-gradient(87deg, #c9e4ca, #87BBA2, #55828B, #3B6064, #364958);

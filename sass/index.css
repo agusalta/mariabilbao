@@ -6,34 +6,33 @@
 
 .bvh1, .bvp {
   color: white;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
 
 .bvp {
   font-size: large;
+  font-weight: lighter;
 }
 
 /* Mixins */
+.page-footer, .navbar {
+  background-color: whitesmoke;
+  background-image: none;
+}
+
+#container-index {
+  background-color: none;
+  background-image: transparent;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
-main {
+main, footer, #lineas {
   overflow: hidden;
-}
-
-footer {
-  overflow: hidden;
-}
-
-#lineas {
-  overflow: hidden;
-}
-
-.page-footer, .navbar {
-  background-color: whitesmoke;
 }
 
 .nav-item {
@@ -45,10 +44,6 @@ footer {
 }
 .item:hover {
   filter: brightness(80%);
-}
-
-#container-index {
-  background-image: transparent;
 }
 
 .jumbotron {

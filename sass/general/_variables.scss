@@ -11,18 +11,29 @@ $color: (
 };
 .bvh1{
     color: map-get($color,'primary');
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 };
 .bvp {
     @extend .bvh1;
     font-size: large;
+    font-weight: lighter;
 };
 
 /* Mixins */
 @mixin oh {
     overflow: hidden;
 };
+@mixin todo ($fondo, $fimagen){
+    background-color: $fondo;
+    background-image: $fimagen;
+}
+.page-footer, .navbar {
+	@include todo (whitesmoke, none)
+}
+#container-index {
+	@include todo (none, transparent)
+}
 
 
 
