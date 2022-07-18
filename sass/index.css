@@ -1,4 +1,20 @@
-/* Colores */
+/* Map */
+/* Map-get, Extend */
+.card-body {
+  color: black;
+}
+
+.bvh1, .bvp {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.bvp {
+  font-size: large;
+}
+
+/* Mixins */
 * {
   margin: 0;
   padding: 0;
@@ -16,45 +32,12 @@ footer {
   overflow: hidden;
 }
 
+.page-footer, .navbar {
+  background-color: whitesmoke;
+}
+
 .nav-item {
   margin-left: 4rem;
-}
-
-.navbar {
-  background-color: whitesmoke;
-}
-
-#galeria {
-  background: linear-gradient(182deg, #ff0000, #800080, #ffc0cb, #0000ff, #008000, #fffa00);
-  background-size: 1200% 1200%;
-  -webkit-animation: AnimationName 30s ease infinite;
-  animation: AnimationName 30s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 55% 0%;
-  }
-  50% {
-    background-position: 46% 100%;
-  }
-  100% {
-    background-position: 55% 0%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 55% 0%;
-  }
-  50% {
-    background-position: 46% 100%;
-  }
-  100% {
-    background-position: 55% 0%;
-  }
-}
-.page-footer {
-  background-color: whitesmoke;
 }
 
 .item {
