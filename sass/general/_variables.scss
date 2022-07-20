@@ -43,10 +43,10 @@ $color: (
     @include todo (transparent, none)
 }
 #galeria {
-    @include todo (#4D71A5, none)
+    @include todo ($primary, none)
 }
 main {
-	@include todo (#4D71A5, none)
+	@include todo ($primary, none)
 }
 #mainix {
 	@include todo (whitesmoke, none)
@@ -57,6 +57,9 @@ main {
 #section-cont {
     color: map-get($color,'primary');
     @include todo (#4D71A5, none)
+}
+#about-section {
+    color: map-get($color, 'primary' );
 }
 
 

@@ -58,6 +58,10 @@ main {
   background-image: none;
 }
 
+#about-section {
+  color: whitesmoke;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -87,6 +91,22 @@ main, footer, #lineas {
   color: #4D71A5 !important;
   border: 1px solid #4D71A5;
   border-radius: 15px;
+}
+
+.site-section {
+  display: flex;
+  padding: 5rem;
+}
+
+.container-cont {
+  border: 1px solid whitesmoke;
+  padding: 4rem;
+}
+
+.img-fluid {
+  height: 20rem !important;
+  width: auto;
+  border-radius: 5px;
 }
 
 #galeria-div {
@@ -133,6 +153,9 @@ card-img-top {
   }
   #div-bv {
     transform: translateY(-5rem);
+  }
+  .img-fluid {
+    display: none;
   }
 }
 @media (max-width: 768px) {

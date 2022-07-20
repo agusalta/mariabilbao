@@ -20,12 +20,25 @@ main, footer, #lineas{
 		filter: brightness(80%);
 	}
 }
-.nav-link{
+.nav-link {
 	&:hover {
 		color: $primary !important;
 		border: 1px solid $primary;
 		border-radius: 15px;
 	}
+}
+.site-section {
+	display: flex;
+	padding: 5rem;
+}
+.container-cont{
+	border: 1px solid whitesmoke;
+	padding: 4rem;
+}
+.img-fluid{
+	height: 20rem !important;
+	width: auto;
+	border-radius: 5px;
 }
 #galeria-div {
     margin: 1rem !important;
@@ -33,7 +46,6 @@ main, footer, #lineas{
 	border-radius: 10px;
 	margin-bottom: 14px;
     padding-top: 0px;
-	
 }
 .card {
 	border: none;
@@ -68,6 +80,9 @@ card-img-top{
 	}
 	#div-bv {
 		transform: translateY(-5rem);
+	}
+	.img-fluid{
+		display: none;
 	}
 }
 @media (max-width: 768px) {
