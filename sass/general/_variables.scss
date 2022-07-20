@@ -34,7 +34,24 @@ $color: (
 #container-index {
 	@include todo (none, transparent)
 }
-
+.card {
+    @include todo (transparent, none)
+}
+#galeria {
+    @include todo (whitesmoke, none)
+}
+main {
+	@include todo (#ACAD94, none)
+}
+#mainix {
+	@include todo (whitesmoke, none)
+}
+.jumbotron {
+	@include todo (#ACAD94, none)
+}
+#section-cont {
+    @include todo (#ACAD94, none)
+}
 
 
 
