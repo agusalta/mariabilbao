@@ -1,12 +1,13 @@
+/* Variables */
 /* Map */
 /* Map-get, Extend */
 .card-body {
-  color: black;
+  color: whitesmoke;
 }
 
 .bvh1, .bvp {
-  color: white;
-  font-family: "Courier New", Courier, monospace;
+  color: whitesmoke;
+  font-family: "Georgia";
   font-weight: bold;
 }
 
@@ -32,12 +33,12 @@
 }
 
 #galeria {
-  background-color: whitesmoke;
+  background-color: #4D71A5;
   background-image: none;
 }
 
 main {
-  background-color: #ACAD94;
+  background-color: #4D71A5;
   background-image: none;
 }
 
@@ -47,12 +48,13 @@ main {
 }
 
 .jumbotron {
-  background-color: #ACAD94;
+  background-color: #4D71A5;
   background-image: none;
 }
 
 #section-cont {
-  background-color: #ACAD94;
+  color: whitesmoke;
+  background-color: #4D71A5;
   background-image: none;
 }
 
@@ -64,6 +66,10 @@ main {
 
 main, footer, #lineas {
   overflow: hidden;
+}
+
+.footer-copyright {
+  background-color: transparent !important;
 }
 
 .nav-item {
@@ -79,26 +85,32 @@ main, footer, #lineas {
 
 #galeria-div {
   margin: 1rem !important;
-  border: 1px solid #F4F4F4;
+  border: none;
   border-radius: 10px;
   margin-bottom: 14px;
   padding-top: 0px;
 }
 
 .card {
+  border: none;
   margin: 2rem;
   padding-top: 15px;
   font-size: large;
   font-style: italic;
 }
 
-#boton-cont {
+card-img-top {
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+}
+
+#boton-cont, .btn {
   background-color: transparent;
   border: 1px solid white;
 }
-#boton-cont:hover {
-  background-color: #663399;
-  box-shadow: 0 0 10px #663399, 0 0 40px #663399, 0 0 80px #663399;
+#boton-cont:hover, .btn:hover {
+  background-color: #ACAD94;
+  box-shadow: 0 0 10px white, 0 0 40px #B8BA6B, 0 0 80px #B8BA6B;
   transition-delay: 0.5;
 }
 
