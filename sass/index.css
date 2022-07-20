@@ -83,6 +83,12 @@ main, footer, #lineas {
   filter: brightness(80%);
 }
 
+.nav-link:hover {
+  color: #4D71A5 !important;
+  border: 1px solid #4D71A5;
+  border-radius: 15px;
+}
+
 #galeria-div {
   margin: 1rem !important;
   border: none;
